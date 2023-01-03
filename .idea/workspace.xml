@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffcb6f28-6475-43dc-84cc-1c77ba05aff2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/hello.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/users/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/users/entidades/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/users/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sample/users/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/hello.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/hello.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sample/users/UsersApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sample/users/UsersApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/users.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/her09/Downloads/lombok-plugin-0.34.1-2019.1.zip",
-    "settings.editor.selected.configurable": "Lombok"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
