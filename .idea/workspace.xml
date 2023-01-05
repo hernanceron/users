@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffcb6f28-6475-43dc-84cc-1c77ba05aff2" name="Changes" comment="workflow build image v4">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/pipelineACR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/pipelineACR.yml" afterDir="false" />
+    <list default="true" id="ffcb6f28-6475-43dc-84cc-1c77ba05aff2" name="Changes" comment="workflow build image v5 - se agregaron usuarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifests/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/manifests/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sample/users/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sample/users/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672939935286</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="workflow build image v5 - se agregaron usuarios">
+      <created>1672940780504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672940780504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +140,8 @@
     <MESSAGE value="workflow build image v2" />
     <MESSAGE value="workflow build image v3" />
     <MESSAGE value="workflow build image v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="workflow build image v4" />
+    <MESSAGE value="workflow build image v5 - se agregaron usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="workflow build image v5 - se agregaron usuarios" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

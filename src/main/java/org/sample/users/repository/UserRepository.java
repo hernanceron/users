@@ -13,6 +13,7 @@ public class UserRepository {
         users.add(new User(1,"Hernan",39));
         users.add(new User(2, "Johanna", 33));
         users.add(new User(3, "Peggy", 11));
+        users.add(new User(4, "Patricia", 38));
     }
 
     public List<User> findAllUsers(){
