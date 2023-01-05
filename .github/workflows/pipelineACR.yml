@@ -23,3 +23,24 @@ jobs:
       - run: |
           docker build . -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/usersapp:${{ github.sha }}
           docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/usersapp:${{ github.sha }}
+
+      - name: 'Seteando AKS context'
+        id: set-context
+        uses: azure/aks-set-context@v3
+        with:
+          resource-group: '${{ secrets.RESOURCE_GROUP }}'
+          cluster-name: '${{ secrets.CLUSTER_NAME }}'
+
+      - name: 'Setup kubectl'
+        id: install-kubectl
+        uses: azure/setup-kubectl@v3
+
+      - name: Deploy to AKS
+        id: deploy-aks
+        uses: azure/k8s-deploy@v4
+        with:
+          namespace: 'default'
+          manifests: |
+            manifests/deployment.yaml
+          images: ${{ secrets.REGISTRY_LOGIN_SERVER }}/usersapp:${{ github.sha }}
+          pull-images: false
