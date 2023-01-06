@@ -44,7 +44,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /usuarios
+          - path: /(.*)
             pathType: Prefix
             backend:
               service:
