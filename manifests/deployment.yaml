@@ -27,6 +27,7 @@ metadata:
 spec:
   ports:
     - port: 8080
+      targetPort: 8080
   selector:
     app: users-back
 ---
@@ -43,7 +44,7 @@ spec:
   rules:
     - http:
         paths:
-          - path: /(.*)
+          - path: /usuarios
             pathType: Prefix
             backend:
               service:

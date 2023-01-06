@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffcb6f28-6475-43dc-84cc-1c77ba05aff2" name="Changes" comment="workflow build image v6 - se agregaron usuarios">
+    <list default="true" id="ffcb6f28-6475-43dc-84cc-1c77ba05aff2" name="Changes" comment="se corrigio el puerto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manifests/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/manifests/deployment.yaml" afterDir="false" />
     </list>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672941712826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="se corrigio el puerto">
+      <created>1673035319216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673035319216</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +155,8 @@
     <MESSAGE value="workflow build image v4" />
     <MESSAGE value="workflow build image v5 - se agregaron usuarios" />
     <MESSAGE value="workflow build image v6 - se agregaron usuarios" />
-    <option name="LAST_COMMIT_MESSAGE" value="workflow build image v6 - se agregaron usuarios" />
+    <MESSAGE value="se corrigio el puerto" />
+    <option name="LAST_COMMIT_MESSAGE" value="se corrigio el puerto" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
